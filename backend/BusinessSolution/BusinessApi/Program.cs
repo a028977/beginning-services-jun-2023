@@ -16,7 +16,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
 app.MapGet("/clock", () =>
 {
     var response = new GetClockResponse(true, null);
