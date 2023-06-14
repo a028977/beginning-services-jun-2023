@@ -8,6 +8,6 @@ POST http://localhost:1338/open-issues
 Content-Type: application/json
 
 {
-  "from": "This guy",
-  "issue": "Docker won't start"
+  "from": "Fred Smith",
+  "issue": "Nothing works me for either!"
 }
